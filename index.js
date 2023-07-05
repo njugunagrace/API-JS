@@ -30,7 +30,7 @@ const displayUsers= async()=>{
 
         div.setAttribute('key',x.id);
         div.setAttribute('class','people');
-        userContainer.appendChild(div)
+        userContainer.appendChild(div);
     });
 }
 displayUsers();

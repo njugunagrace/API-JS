@@ -26,6 +26,9 @@ let result= await fetch('https://dummyjson.com/users/add', {               //fet
 .catch(error=>error.message)                             //was returning a promise in the console hence added async await
 
 
+
+
+
 let success=document.getElementById('success');
 result && result.id? success.innerHTML='user created successfully': success.innerHTML='User not created'
 console.log({result});
